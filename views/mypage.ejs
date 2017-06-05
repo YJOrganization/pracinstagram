@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/stylesheets/instagram.css">
+    <link rel="stylesheet" href="/stylesheets/modal2.css">
+    <link rel="stylesheet" href="/stylesheets/modal4.css">
+        <script type="text/javascript" src="/javascripts/heart.js"></script>
+        <script type="text/javascript" src="/javascripts/usermode.js"></script>
+        <script type="text/javascript" src="/javascripts/main.js"></script>
+        <script type="text/javascript" src="/javascripts/search.js"></script>
+        <script type="text/javascript" src="/javascripts/modal.js"></script>
+
+
+  </head>
+
+  <body onload="change2();">
+    <div class="bar">
+      <table class="tab">
+      <tr class="menubar">
+        <td id= "td1">
+          <div id="icon"><img src="/images/5.png" width="30"></div>
+        </td>
+        <td id= "td2">
+          <button class="menubarbtn" id="mainbtn" onclick="location.href = '/instagram'"><img src="/images/2.png" width="100"/></button>
+        </td>
+        <td id= "td3">
+        <input type="text" placeholder="검색" id="search" onclick="search();">
+        </td>
+        <td id= "td4">
+            <button class="menubarbtn"><img src="/images/9.png" width="30"/ ></button>
+        </td>
+        <td id= "td5">
+            <button class="menubarbtn"><img src="/images/8.png" width="30"/></button>
+        </td>
+        <td id= "td6">
+          <button id="menubarbtn" class="menubarbtn" onclick="location.href = '/mypage'" ><img src="/images/7.png" width="30"></button>
+        </td>
+      </tr>
+    </table>
+    </div>
+    <div id="main2" class="main" onclick="other();">
+      <div class="information">
+      <div class="infouser">
+        <div class="myimg">
+        <button id="promodalbtn" onclick="modal3();"><img src="/images/6.jpg" ></button>
+        </div>
+        <div class="line1">
+          <table class="tata1">
+            <tr>
+              <td class="ta1td1">dpwls2215</td>
+              <td class="ta1td2"><button id="taltd2btn">프로필 편집</button></td>
+              <td class="ta1td3"><button id="modalbtn"><img src="/images/15.png" width="30px" height ="30px" ></button></td>
+            </tr>
+          </table>
+
+          <div id="promodal" class="modal">
+            <span class="close">&times;</span>
+            <div class="modal-content" id="promodalcon">
+              <a class="buttonlink2" id="promodal1" href="#">프로필 사진 바꾸기</a>
+              <a class="buttonlink2" id="promodal2" href="#">현재 사진 삭제</a>
+              <a class="buttonlink2" id="promodal3" href="#">사진 찍기</a>
+              <a class="buttonlink2" id="promodal4" href="#">사진 업로드</a>
+              <a class="buttonlink2" id="promodal5" href="#">취소</a>
+            </div>
+          </div>
+
+          <table class="tata2">
+            <tr>
+              <td>게시물 1개</td>
+              <td>팔로워 2명</td>
+              <td>팔로우 4명</td>
+            </tr>
+          </table>
+          <table class="tata3">
+            <tr>
+              <td rowspan="3">장예진</td>
+            </tr>
+          </table>
+        </div>
+        <div id="momodal2" class="modal">
+          <span class="close2">&times;</span>
+          <div class="modal-content2">
+            <a class="buttonlink2" id="link4" href="#">로그아웃</a>
+            <a class="buttonlink2" id="link5" href="#">취소</a>
+          </div>
+        </div>
+         <script type="text/javascript" src="/javascripts/modal2.js"></script>
+      </div>
+      <div class="infoimg" id="myimgid2" >
+      </div>
+
+    </div>  
+    </div>
+    <div id="infomodal" class="modal4">
+      <span class="close">&times;</span>
+      <div class="modal-content4" id="infomodal">
+        <div id="infomodalimg"><img src="/images/pho1.png" id="modal4img" width="100%" height="100%"></div>
+        <div id="infomodalall">
+        <div id="infomodalprobar">
+          <div class="modal4photo2"></div><a href="#"id="nicknameid2">thekfa</a>
+        </div>
+        <div id="infomodallikebar">
+          <p class="infomodallikebar1">좋아요 917개</p>
+          <p class="infomodallikebar2">29주 전</p>
+        </div>
+        <div id="infomodaltext">
+          <p  id="infomodaltext1"><a href="#" >hyunggynjung</a> 팬더야 백호에게 100호골 먹고 100:0 가보자!</p>
+          <p  id="infomodaltext2"><a href="#">soo_yoon___</a> 판다는 대숲으로 우리는 대승으로!</p>
+        </div>
+        <div id="infomodalheart">
+          <table id="modaltable" >
+          <tr>
+            <td ><img src="/images/14.png" width="30" height="30" id="modal4heart" style="cursor:pointer;"></td>
+            <td ><input id="text1" type ="text" name="text" placeholder="댓글달기.."></td>
+            <td ><button id="modal4btn" onclick="modal1();"><img src="/images/15.png"></button></td>
+          </tr>
+        </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

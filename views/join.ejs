@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="/javascripts/regularexpression.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="/javascripts/instagram_join.js"></script>
+    <style>
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
+    body{
+      background : #fbfbfb;
+      text-align: center;
+      font-family: 'Nanum Gothic Coding';
+    }
+
+    #all{
+      margin : auto;
+    }
+    #imgdiv{
+      margin : 10% 5px 10% 17%;
+      float : left;
+
+    }
+    #right{
+      margin : 8% 27% 10% 2px;
+      float : right;
+          }
+
+    #first{
+      background: white;
+      padding : 20px 20px 20px 15px ;
+      border-radius: 5px;
+      border-color : #dcdcdc;
+      border-width: 1px;
+    }
+
+
+    #second{
+      background: white;
+      border-color:#dcdcdc;
+      margin : 10px 0px 10px 0px;
+      padding : 20px;
+      border-radius: 5px;
+      border-width: 1px;
+    }
+    #formdiv{
+      margin : 10px 0px 10px 0px;
+    }
+
+    #facebookdiv{
+        margin : 10px 0px 10px 0px;
+        width  : 200px;
+        height : 20px;
+    }
+
+    hr{
+      margin : 10px 0;
+      border : 1px  rgba(0, 0, 0, 0.08) solid;
+    }
+
+    input{
+        margin : 3px 0px 3px 0px;
+        padding : 3px 2px;
+        width  : 200px;
+        height : 20px;
+        border-color: rgba(0, 0, 0, 0.08);
+        color : rgba(0, 0, 0, 0.5);
+        border-radius: 3px;
+
+    }
+    button{
+
+          margin : 3px 0px 3px 0px;
+          width  : 205px;
+          height : 30px;
+          border: none;
+          background-color: #3897f0;
+          color : white;
+          border-radius: 3px;
+
+    }
+
+
+
+    a:link{
+      color:black;
+      text-decoration: none;
+
+    }
+    a:visited{
+      color:black;
+      text-decoration: none;
+
+    }
+    a:hover{
+      color:black;
+      text-decoration: none;
+
+    }
+    #signfont{
+      color :#48a3e6;
+    }
+    #facebook{
+      color : #168de5;
+    }
+
+    #download{
+      font-size : 11pt;
+      color : black;
+    }
+
+    #info{
+      font-size : 10pt;
+    }
+
+    #pp{
+      line-height : 200%;
+      color : #a6a6a6;
+    }
+
+    #hide{
+      color: red;
+      display:none;
+      font-size : 10pt;
+    }
+
+    #Joinbutton{
+
+          margin : 3px 0px 3px 0px;
+          width  : 205px;
+          height : 30px;
+          border: none;
+          background-color: #3897f0;
+          color : white;
+          border-radius: 3px;
+
+    }
+
+    </style>
+  </head>
+  <body>
+    <div id ="all">
+        <div id = "imgdiv">
+        <img src="/images/iphone7.png" width = "370" height = "700">
+        </div>
+        <div id = "right" width = "400" height ="900" >
+          <div id="first" width = "400" height = "800">
+            <img src="/images/2.png" width="180" height ="40">
+            <p id="pp"><strong>친구들의 사진과 동영상을 보려면<br>가입하세요</strong></p>
+            <div id = "buttondiv">
+            <button type ="button"  onclick = "location.href = 'https://ko-kr.facebook.com/' ">Facebook으로 로그인</button>
+            </div>
+            <hr>
+            <div id = "formdiv" width="400">
+              <form action="input_jsp" method ="post">
+                <input type ="email" name="email" id="email" placeholder="전화번호 또는 이메일"/><br>
+                <input type ="text" name="name" id="name" placeholder="성명" /><br>
+                <input type ="text" name="name" id="user" placeholder="사용자" /><br>
+                <input type ="password" name="password" id="password" placeholder="비밀번호" /><br>
+                <div id = "buttondiv">
+                <input type ="submit" id="Joinbutton"  >
+                <p id="hide">필수 항목입니다</p>
+                </div>
+
+              </form>
+            </div>
+            <p id="info">가입하면 Instagram의 <strong>약관</strong> 및 <strong>개인</strong><br><strong>정보처리방침</strong>에 동의하게 됩니다.</p>
+          </div>
+
+          <div id ="second">
+            <div id ="signdiv">
+              계정이 있으신가요? <a href ="/" id ="signfont">로그인</a>
+            </div>
+          </div>
+          <div id = "third">
+            <p id="download">앱을 다운로드하세요</p>
+            <div id="appimg">
+              <img src="/images/3.png" width="120" height="45">
+              <img src="/images/4.png"  width="120" height="45">
+
+            </div>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>

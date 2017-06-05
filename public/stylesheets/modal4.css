@@ -1,0 +1,150 @@
+/*modal*/
+.modal4{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left:0;
+  top:0;
+  width:100%;
+  height: 100%;
+  overflow:auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  font-size : 15pt;
+  }
+
+  .modal-content4{
+    background-color: #fefefe;
+    margin: 10% auto;
+    border: 1px solid #888;
+    width: 55%;
+    height : 58%;
+    text-align: center;
+    font-family: 'Nanum Gothic' ;
+  }
+
+
+#modalimg{
+  width : 10%;
+  height : 10%;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  margin-top: 10px;
+}
+
+#infomodallikebar{
+
+border-top :1px solid rgba(0, 0, 0, 0.1);
+width  :90%;
+margin :0% auto;
+
+}
+
+#modaltable{
+  width : 100%;
+  height : 90%;
+  margin-top  :5%;
+}
+
+#infomodalheart{
+  border-top :1px solid rgba(0, 0, 0, 0.1);
+  width  :90%;
+  margin :0% auto;
+  padding-top  :-10px;
+}
+
+#modal4btn{
+  height:50%;
+  width  :90%;
+  outline: none;
+  background-color:Transparent;
+  border-style: none;
+}
+
+#modal4btn img{
+  height:40%;
+  width  :60%;
+
+}
+
+.modal4photo2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    background: url("/images/photo.jpg") no-repeat;
+    background-position: center;
+    float: left;
+
+}
+
+#infomodalprobar a{
+  float : left;
+  margin-top : 3%;
+}
+
+#nicknameid2:link{
+  text-decoration: none;
+  color : black;
+  font-weight: 600;
+
+}
+#nicknameid2:visited{
+  text-decoration: 600;
+  color : black;
+  font-weight: 600;
+}
+#nicknameid2:hover{
+  text-decoration: none;
+  color : black;
+  font-weight: 600;
+}
+
+.infomodallikebar1{
+    float : left;
+    margin-right : 50%;
+    margin-left: -10%;
+    font-size: 12pt;
+    color: rgba(0,0,0,1);
+    padding-top : -10px;
+
+}
+
+.infomodallikebar2{
+    float : left;
+    font-size: 12pt;
+    padding-top : -10px;
+    color: rgba(0,0,0,0.5);
+}
+
+
+#infomodaltext{
+    font-size: 10pt;
+    color: rgba(0,0,0,1);
+    width  :90%;
+    margin :0% auto;
+}
+
+
+
+#infomodaltext a:link{
+  text-decoration: none;
+  color : black;
+  font-weight: 600;
+
+}
+#infomodaltext a:visited{
+  text-decoration: 600;
+  color : black;
+  font-weight: 600;
+}
+#infomodaltext a:hover{
+  text-decoration: none;
+  color : black;
+  font-weight: 600;
+}
+#infomodaltext2{
+  margin-left : -9%;
+}

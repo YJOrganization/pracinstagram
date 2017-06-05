@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/stylesheets/instagram.css">
+    <link rel="stylesheet" href="/stylesheets/modal2.css">
+    <link rel="stylesheet" href="/stylesheets/modal4.css">
+        <script type="text/javascript" src="/javascripts/heart.js"></script>
+        <script type="text/javascript" src="/javascripts/usermode.js"></script>
+        <script type="text/javascript" src="/javascripts/main.js"></script>
+        <script type="text/javascript" src="/javascripts/search.js"></script>
+<script type="text/javascript" src="/javascripts/modal.js"></script>
+
+
+  </head>
+
+  <body onload="mainview();">
+    <div class="bar">
+      <table class="tab">
+      <tr class="menubar">
+        <td id= "td1">
+          <div id="icon"><img src="/images/5.png" width="30"></div>
+        </td>
+        <td id= "td2">
+          <button class="menubarbtn" id="mainbtn" onclick="location.href = '/instagram'"><img src="/images/2.png" width="100"/></button>
+        </td>
+        <td id= "td3">
+        <input type="text" placeholder="검색" id="search" onclick="search();">
+        </td>
+        <td id= "td4">
+            <button class="menubarbtn"><img src="/images/9.png" width="30"/ ></button>
+        </td>
+        <td id= "td5">
+            <button class="menubarbtn"><img src="/images/8.png" width="30"/></button>
+        </td>
+        <td id= "td6">
+          <button id="menubarbtn" class="menubarbtn" onclick="location.href = '/mypage'" ><img src="/images/7.png" width="30"></button>
+        </td>
+      </tr>
+    </table>
+    </div>
+
+    <div id="main1" class="main" onclick="other();">
+      <div id="mainimg" class="mainimg" >
+        <div id= "mainbar">
+          <div id="idid">
+            <table>
+              <tr>
+                <td><div class="photo"></div></td>
+                <td><a href="" class="nickname" id="nicknameid">thekfa</a></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div id="img1">
+          <img id="img1img" src="/images/pho1.png" width = "100%" height= "40%"/>
+        </div>
+        <div id="note" >
+          <div id="notein">
+           <p style="font-weight:600; font-size : 15px;" id="like">좋아요 917개</p>
+           <p id="mainpp1"><a href="#" id="aa" class="aa1">thekfa</a> 백호의 말풍선을 채워라</p>
+           <p id="mainpp2"><a href="#" id="bb">#대한민국vs중국</a>&nbsp<a href="" id="bb2">#이벤트</a></p>
+           <p id="mainpp3"><a href="#" id="cc">댓글 335개 모두보기</a></p>
+           <p id="mainpp4"><a href="#" id="aa"  class="aa2">hyunggynjung</a> 팬더야 백호에게 100호골 먹고 100:0 가보자!</p>
+           <p id="mainpp5"><a href="#" id="aa"  class="aa3">soo_yoon___</a> 판다는 대숲으로 우리는 대승으로!</p>
+         </div>
+         <hr>
+         <div id= "notemenu">
+           <table class="table1">
+             <tr>
+               <td id="t1"><img src="/images/14.png" width="30" height="30" id="heartheart" onclick="heart();" style="cursor:pointer;"></td>
+               <td id="t2"><input id="text1" type ="text" name="text" placeholder="댓글달기.." style="height:30px; width : 400px;"></td>
+               <td id="t3"><button id="imgbtn" onclick="modal1();"><img src="/images/15.png" width="30px" height ="30px"></button></td>
+             </tr>
+           </table>
+            <script type="text/javascript" src="/javascripts/heart.js"></script>
+          </div>
+        </div>
+        <div id="momodal" class="modal">
+          <span class="close">&times;</span>
+          <div class="modal-content">
+            <a class="buttonlink" id="link1" href="#">부적절한 콘텐츠 신고</a>
+            <a class="buttonlink" id="link2" href="#">퍼가기</a>
+            <a class="buttonlink" id="link3" href="#">취소</a>
+          </div>
+        </div>
+
+  </div>
+</div>
+  </body>
+</html>
